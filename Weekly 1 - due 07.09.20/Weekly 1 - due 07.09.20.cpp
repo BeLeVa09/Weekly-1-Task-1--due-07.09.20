@@ -9,7 +9,6 @@ long phone;
 int main()
 {
     // Get information
-
     std::cout << "Hello there, please write your name\n";
     std::cin >> name;
     std::string sSource = name;
@@ -20,11 +19,10 @@ int main()
     std::cout << "\nRight.\nLastly, I'll need your date of birth (dd/mm/yyyy)\n";
     std::cin >> dob;
 
-    //std::string sSource = name;
-    //std::cout << sSource[0] << "\n";
+    //std::string sSource = name;           This is the method I used to find the users initial
+    //std::cout << sSource[0] << "\n";      I found this method on learncpp.com chapter 17.4
 
     // Print information
-
     std::cout << "\n-------------------------\n";
     std::cout << " | Name     | " << name << "\n";
     std::cout << " | Initial  | " << sSource[0] << "\n";
